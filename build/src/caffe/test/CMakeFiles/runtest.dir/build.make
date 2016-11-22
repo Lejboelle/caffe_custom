@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aske/caffe
+CMAKE_SOURCE_DIR = /home/aske/AAU/Code/caffe_custom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aske/caffe/build
+CMAKE_BINARY_DIR = /home/aske/AAU/Code/caffe_custom/build
 
 # Utility rule file for runtest.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/aske/caffe/build
 include src/caffe/test/CMakeFiles/runtest.dir/progress.make
 
 src/caffe/test/CMakeFiles/runtest:
-	cd /home/aske/caffe && /home/aske/caffe/build/test/test.testbin --gtest_shuffle
+	cd /home/aske/AAU/Code/caffe_custom && /home/aske/AAU/Code/caffe_custom/build/test/test.testbin --gtest_shuffle
 
 runtest: src/caffe/test/CMakeFiles/runtest
 runtest: src/caffe/test/CMakeFiles/runtest.dir/build.make
@@ -67,10 +67,10 @@ src/caffe/test/CMakeFiles/runtest.dir/build: runtest
 .PHONY : src/caffe/test/CMakeFiles/runtest.dir/build
 
 src/caffe/test/CMakeFiles/runtest.dir/clean:
-	cd /home/aske/caffe/build/src/caffe/test && $(CMAKE_COMMAND) -P CMakeFiles/runtest.dir/cmake_clean.cmake
+	cd /home/aske/AAU/Code/caffe_custom/build/src/caffe/test && $(CMAKE_COMMAND) -P CMakeFiles/runtest.dir/cmake_clean.cmake
 .PHONY : src/caffe/test/CMakeFiles/runtest.dir/clean
 
 src/caffe/test/CMakeFiles/runtest.dir/depend:
-	cd /home/aske/caffe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aske/caffe /home/aske/caffe/src/caffe/test /home/aske/caffe/build /home/aske/caffe/build/src/caffe/test /home/aske/caffe/build/src/caffe/test/CMakeFiles/runtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aske/AAU/Code/caffe_custom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aske/AAU/Code/caffe_custom /home/aske/AAU/Code/caffe_custom/src/caffe/test /home/aske/AAU/Code/caffe_custom/build /home/aske/AAU/Code/caffe_custom/build/src/caffe/test /home/aske/AAU/Code/caffe_custom/build/src/caffe/test/CMakeFiles/runtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/caffe/test/CMakeFiles/runtest.dir/depend
 

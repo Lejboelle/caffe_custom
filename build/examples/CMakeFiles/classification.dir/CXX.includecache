@@ -290,7 +290,7 @@ string
 caffe/proto/caffe.pb.h
 ../include/caffe/util/caffe/proto/caffe.pb.h
 
-/home/aske/caffe/examples/cpp_classification/classification.cpp
+/home/aske/AAU/Code/caffe_custom/examples/cpp_classification/classification.cpp
 caffe/caffe.hpp
 -
 opencv2/core/core.hpp

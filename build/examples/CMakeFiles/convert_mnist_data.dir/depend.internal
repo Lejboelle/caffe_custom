@@ -7,7 +7,7 @@ examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o
  ../include/caffe/util/db.hpp
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/format.hpp
- /home/aske/caffe/examples/mnist/convert_mnist_data.cpp
+ /home/aske/AAU/Code/caffe_custom/examples/mnist/convert_mnist_data.cpp
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
  /usr/local/cuda/include/common_functions.h

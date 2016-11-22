@@ -76,7 +76,7 @@ sstream
 string
 -
 
-/home/aske/caffe/examples/mnist/convert_mnist_data.cpp
+/home/aske/AAU/Code/caffe_custom/examples/mnist/convert_mnist_data.cpp
 gflags/gflags.h
 -
 glog/logging.h
@@ -98,13 +98,13 @@ fstream
 string
 -
 boost/scoped_ptr.hpp
-/home/aske/caffe/examples/mnist/boost/scoped_ptr.hpp
+/home/aske/AAU/Code/caffe_custom/examples/mnist/boost/scoped_ptr.hpp
 caffe/proto/caffe.pb.h
-/home/aske/caffe/examples/mnist/caffe/proto/caffe.pb.h
+/home/aske/AAU/Code/caffe_custom/examples/mnist/caffe/proto/caffe.pb.h
 caffe/util/db.hpp
-/home/aske/caffe/examples/mnist/caffe/util/db.hpp
+/home/aske/AAU/Code/caffe_custom/examples/mnist/caffe/util/db.hpp
 caffe/util/format.hpp
-/home/aske/caffe/examples/mnist/caffe/util/format.hpp
+/home/aske/AAU/Code/caffe_custom/examples/mnist/caffe/util/format.hpp
 
 /usr/local/cuda/include/builtin_types.h
 device_types.h

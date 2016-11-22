@@ -28,7 +28,7 @@ python/CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.o
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
  ../include/caffe/util/upgrade_proto.hpp
- /home/aske/caffe/python/caffe/_caffe.cpp
+ /home/aske/AAU/Code/caffe_custom/python/caffe/_caffe.cpp
  /usr/include/atlas/cblas.h
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h

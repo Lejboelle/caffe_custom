@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/aske/caffe/tools/caffe.cpp" "/home/aske/caffe/build/tools/CMakeFiles/caffe.bin.dir/caffe.cpp.o"
+  "/home/aske/AAU/Code/caffe_custom/tools/caffe.cpp" "/home/aske/AAU/Code/caffe_custom/build/tools/CMakeFiles/caffe.bin.dir/caffe.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -34,8 +34,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/aske/caffe/build/src/caffe/CMakeFiles/caffe.dir/DependInfo.cmake"
-  "/home/aske/caffe/build/src/caffe/CMakeFiles/proto.dir/DependInfo.cmake"
+  "/home/aske/AAU/Code/caffe_custom/build/src/caffe/CMakeFiles/caffe.dir/DependInfo.cmake"
+  "/home/aske/AAU/Code/caffe_custom/build/src/caffe/CMakeFiles/proto.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

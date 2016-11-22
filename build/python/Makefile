@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aske/caffe
+CMAKE_SOURCE_DIR = /home/aske/AAU/Code/caffe_custom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aske/caffe/build
+CMAKE_BINARY_DIR = /home/aske/AAU/Code/caffe_custom/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/aske/caffe/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/aske/caffe/build/CMakeFiles /home/aske/caffe/build/python/CMakeFiles/progress.marks
-	cd /home/aske/caffe/build && $(MAKE) -f CMakeFiles/Makefile2 python/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aske/caffe/build/CMakeFiles 0
+	cd /home/aske/AAU/Code/caffe_custom/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/aske/AAU/Code/caffe_custom/build/CMakeFiles /home/aske/AAU/Code/caffe_custom/build/python/CMakeFiles/progress.marks
+	cd /home/aske/AAU/Code/caffe_custom/build && $(MAKE) -f CMakeFiles/Makefile2 python/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aske/AAU/Code/caffe_custom/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/aske/caffe/build && $(MAKE) -f CMakeFiles/Makefile2 python/clean
+	cd /home/aske/AAU/Code/caffe_custom/build && $(MAKE) -f CMakeFiles/Makefile2 python/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/aske/caffe/build && $(MAKE) -f CMakeFiles/Makefile2 python/preinstall
+	cd /home/aske/AAU/Code/caffe_custom/build && $(MAKE) -f CMakeFiles/Makefile2 python/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/aske/caffe/build && $(MAKE) -f CMakeFiles/Makefile2 python/preinstall
+	cd /home/aske/AAU/Code/caffe_custom/build && $(MAKE) -f CMakeFiles/Makefile2 python/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/aske/caffe/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/aske/AAU/Code/caffe_custom/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 python/CMakeFiles/pycaffe.dir/rule:
-	cd /home/aske/caffe/build && $(MAKE) -f CMakeFiles/Makefile2 python/CMakeFiles/pycaffe.dir/rule
+	cd /home/aske/AAU/Code/caffe_custom/build && $(MAKE) -f CMakeFiles/Makefile2 python/CMakeFiles/pycaffe.dir/rule
 .PHONY : python/CMakeFiles/pycaffe.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ pycaffe: python/CMakeFiles/pycaffe.dir/rule
 
 # fast build rule for target.
 pycaffe/fast:
-	cd /home/aske/caffe/build && $(MAKE) -f python/CMakeFiles/pycaffe.dir/build.make python/CMakeFiles/pycaffe.dir/build
+	cd /home/aske/AAU/Code/caffe_custom/build && $(MAKE) -f python/CMakeFiles/pycaffe.dir/build.make python/CMakeFiles/pycaffe.dir/build
 .PHONY : pycaffe/fast
 
 caffe/_caffe.o: caffe/_caffe.cpp.o
@@ -175,7 +175,7 @@ caffe/_caffe.o: caffe/_caffe.cpp.o
 
 # target to build an object file
 caffe/_caffe.cpp.o:
-	cd /home/aske/caffe/build && $(MAKE) -f python/CMakeFiles/pycaffe.dir/build.make python/CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.o
+	cd /home/aske/AAU/Code/caffe_custom/build && $(MAKE) -f python/CMakeFiles/pycaffe.dir/build.make python/CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.o
 .PHONY : caffe/_caffe.cpp.o
 
 caffe/_caffe.i: caffe/_caffe.cpp.i
@@ -184,7 +184,7 @@ caffe/_caffe.i: caffe/_caffe.cpp.i
 
 # target to preprocess a source file
 caffe/_caffe.cpp.i:
-	cd /home/aske/caffe/build && $(MAKE) -f python/CMakeFiles/pycaffe.dir/build.make python/CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.i
+	cd /home/aske/AAU/Code/caffe_custom/build && $(MAKE) -f python/CMakeFiles/pycaffe.dir/build.make python/CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.i
 .PHONY : caffe/_caffe.cpp.i
 
 caffe/_caffe.s: caffe/_caffe.cpp.s
@@ -193,7 +193,7 @@ caffe/_caffe.s: caffe/_caffe.cpp.s
 
 # target to generate assembly for a file
 caffe/_caffe.cpp.s:
-	cd /home/aske/caffe/build && $(MAKE) -f python/CMakeFiles/pycaffe.dir/build.make python/CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.s
+	cd /home/aske/AAU/Code/caffe_custom/build && $(MAKE) -f python/CMakeFiles/pycaffe.dir/build.make python/CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.s
 .PHONY : caffe/_caffe.cpp.s
 
 # Help Target
@@ -223,6 +223,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/aske/caffe/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/aske/AAU/Code/caffe_custom/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

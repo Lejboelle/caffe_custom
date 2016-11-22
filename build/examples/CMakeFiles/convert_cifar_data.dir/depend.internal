@@ -7,7 +7,7 @@ examples/CMakeFiles/convert_cifar_data.dir/cifar10/convert_cifar_data.cpp.o
  ../include/caffe/util/db.hpp
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/format.hpp
- /home/aske/caffe/examples/cifar10/convert_cifar_data.cpp
+ /home/aske/AAU/Code/caffe_custom/examples/cifar10/convert_cifar_data.cpp
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
  /usr/local/cuda/include/common_functions.h

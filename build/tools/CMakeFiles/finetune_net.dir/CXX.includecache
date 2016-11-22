@@ -290,9 +290,9 @@ string
 caffe/proto/caffe.pb.h
 ../include/caffe/util/caffe/proto/caffe.pb.h
 
-/home/aske/caffe/tools/finetune_net.cpp
+/home/aske/AAU/Code/caffe_custom/tools/finetune_net.cpp
 caffe/caffe.hpp
-/home/aske/caffe/tools/caffe/caffe.hpp
+/home/aske/AAU/Code/caffe_custom/tools/caffe/caffe.hpp
 
 /usr/include/atlas/cblas.h
 

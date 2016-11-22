@@ -106,7 +106,7 @@ boost/random/uniform_int.hpp
 caffe/common.hpp
 ../include/caffe/util/caffe/common.hpp
 
-/home/aske/caffe/tools/convert_imageset.cpp
+/home/aske/AAU/Code/caffe_custom/tools/convert_imageset.cpp
 algorithm
 -
 fstream
@@ -118,21 +118,21 @@ utility
 vector
 -
 boost/scoped_ptr.hpp
-/home/aske/caffe/tools/boost/scoped_ptr.hpp
+/home/aske/AAU/Code/caffe_custom/tools/boost/scoped_ptr.hpp
 gflags/gflags.h
-/home/aske/caffe/tools/gflags/gflags.h
+/home/aske/AAU/Code/caffe_custom/tools/gflags/gflags.h
 glog/logging.h
-/home/aske/caffe/tools/glog/logging.h
+/home/aske/AAU/Code/caffe_custom/tools/glog/logging.h
 caffe/proto/caffe.pb.h
-/home/aske/caffe/tools/caffe/proto/caffe.pb.h
+/home/aske/AAU/Code/caffe_custom/tools/caffe/proto/caffe.pb.h
 caffe/util/db.hpp
-/home/aske/caffe/tools/caffe/util/db.hpp
+/home/aske/AAU/Code/caffe_custom/tools/caffe/util/db.hpp
 caffe/util/format.hpp
-/home/aske/caffe/tools/caffe/util/format.hpp
+/home/aske/AAU/Code/caffe_custom/tools/caffe/util/format.hpp
 caffe/util/io.hpp
-/home/aske/caffe/tools/caffe/util/io.hpp
+/home/aske/AAU/Code/caffe_custom/tools/caffe/util/io.hpp
 caffe/util/rng.hpp
-/home/aske/caffe/tools/caffe/util/rng.hpp
+/home/aske/AAU/Code/caffe_custom/tools/caffe/util/rng.hpp
 
 /usr/local/cuda/include/builtin_types.h
 device_types.h

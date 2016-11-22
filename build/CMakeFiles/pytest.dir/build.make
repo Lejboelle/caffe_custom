@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aske/caffe
+CMAKE_SOURCE_DIR = /home/aske/AAU/Code/caffe_custom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aske/caffe/build
+CMAKE_BINARY_DIR = /home/aske/AAU/Code/caffe_custom/build
 
 # Utility rule file for pytest.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/aske/caffe/build
 include CMakeFiles/pytest.dir/progress.make
 
 CMakeFiles/pytest:
-	cd /home/aske/caffe/python && python2 -m unittest discover -s caffe/test
+	cd /home/aske/AAU/Code/caffe_custom/python && python2 -m unittest discover -s caffe/test
 
 pytest: CMakeFiles/pytest
 pytest: CMakeFiles/pytest.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/pytest.dir/clean:
 .PHONY : CMakeFiles/pytest.dir/clean
 
 CMakeFiles/pytest.dir/depend:
-	cd /home/aske/caffe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aske/caffe /home/aske/caffe /home/aske/caffe/build /home/aske/caffe/build /home/aske/caffe/build/CMakeFiles/pytest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aske/AAU/Code/caffe_custom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aske/AAU/Code/caffe_custom /home/aske/AAU/Code/caffe_custom /home/aske/AAU/Code/caffe_custom/build /home/aske/AAU/Code/caffe_custom/build /home/aske/AAU/Code/caffe_custom/build/CMakeFiles/pytest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pytest.dir/depend
 

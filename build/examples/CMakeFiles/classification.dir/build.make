@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aske/caffe
+CMAKE_SOURCE_DIR = /home/aske/AAU/Code/caffe_custom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aske/caffe/build
+CMAKE_BINARY_DIR = /home/aske/AAU/Code/caffe_custom/build
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/classification.dir/depend.make
@@ -59,16 +59,16 @@ include examples/CMakeFiles/classification.dir/flags.make
 
 examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o: examples/CMakeFiles/classification.dir/flags.make
 examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o: ../examples/cpp_classification/classification.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aske/caffe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o"
-	cd /home/aske/caffe/build/examples && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/classification.dir/cpp_classification/classification.cpp.o -c /home/aske/caffe/examples/cpp_classification/classification.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aske/AAU/Code/caffe_custom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o"
+	cd /home/aske/AAU/Code/caffe_custom/build/examples && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/classification.dir/cpp_classification/classification.cpp.o -c /home/aske/AAU/Code/caffe_custom/examples/cpp_classification/classification.cpp
 
 examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/classification.dir/cpp_classification/classification.cpp.i"
-	cd /home/aske/caffe/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aske/caffe/examples/cpp_classification/classification.cpp > CMakeFiles/classification.dir/cpp_classification/classification.cpp.i
+	cd /home/aske/AAU/Code/caffe_custom/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aske/AAU/Code/caffe_custom/examples/cpp_classification/classification.cpp > CMakeFiles/classification.dir/cpp_classification/classification.cpp.i
 
 examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/classification.dir/cpp_classification/classification.cpp.s"
-	cd /home/aske/caffe/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aske/caffe/examples/cpp_classification/classification.cpp -o CMakeFiles/classification.dir/cpp_classification/classification.cpp.s
+	cd /home/aske/AAU/Code/caffe_custom/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aske/AAU/Code/caffe_custom/examples/cpp_classification/classification.cpp -o CMakeFiles/classification.dir/cpp_classification/classification.cpp.s
 
 examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o.requires:
 
@@ -133,9 +133,9 @@ examples/cpp_classification/classification: /usr/lib/libatlas.so
 examples/cpp_classification/classification: /usr/lib/x86_64-linux-gnu/libpython2.7.so
 examples/cpp_classification/classification: /usr/lib/x86_64-linux-gnu/libboost_python.so
 examples/cpp_classification/classification: examples/CMakeFiles/classification.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aske/caffe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp_classification/classification"
-	cd /home/aske/caffe/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/classification.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/aske/caffe/build/examples && ln -sf /home/aske/caffe/build/examples/cpp_classification/classification /home/aske/caffe/build/examples/cpp_classification/classification.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aske/AAU/Code/caffe_custom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp_classification/classification"
+	cd /home/aske/AAU/Code/caffe_custom/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/classification.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/aske/AAU/Code/caffe_custom/build/examples && ln -sf /home/aske/AAU/Code/caffe_custom/build/examples/cpp_classification/classification /home/aske/AAU/Code/caffe_custom/build/examples/cpp_classification/classification.bin
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/classification.dir/build: examples/cpp_classification/classification
@@ -147,10 +147,10 @@ examples/CMakeFiles/classification.dir/requires: examples/CMakeFiles/classificat
 .PHONY : examples/CMakeFiles/classification.dir/requires
 
 examples/CMakeFiles/classification.dir/clean:
-	cd /home/aske/caffe/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/classification.dir/cmake_clean.cmake
+	cd /home/aske/AAU/Code/caffe_custom/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/classification.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/classification.dir/clean
 
 examples/CMakeFiles/classification.dir/depend:
-	cd /home/aske/caffe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aske/caffe /home/aske/caffe/examples /home/aske/caffe/build /home/aske/caffe/build/examples /home/aske/caffe/build/examples/CMakeFiles/classification.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aske/AAU/Code/caffe_custom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aske/AAU/Code/caffe_custom /home/aske/AAU/Code/caffe_custom/examples /home/aske/AAU/Code/caffe_custom/build /home/aske/AAU/Code/caffe_custom/build/examples /home/aske/AAU/Code/caffe_custom/build/examples/CMakeFiles/classification.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/CMakeFiles/classification.dir/depend
 

@@ -91,6 +91,7 @@ class SoftmaxParameter;
 class TanHParameter;
 class TileParameter;
 class ThresholdParameter;
+class TransposeParameter;
 class TripletParameter;
 class WindowDataParameter;
 class SPPParameter;
@@ -3195,6 +3196,15 @@ class LayerParameter : public ::google::protobuf::Message {
   inline ::caffe::TileParameter* release_tile_param();
   inline void set_allocated_tile_param(::caffe::TileParameter* tile_param);
 
+  // optional .caffe.TransposeParameter transpose_param = 149;
+  inline bool has_transpose_param() const;
+  inline void clear_transpose_param();
+  static const int kTransposeParamFieldNumber = 149;
+  inline const ::caffe::TransposeParameter& transpose_param() const;
+  inline ::caffe::TransposeParameter* mutable_transpose_param();
+  inline ::caffe::TransposeParameter* release_transpose_param();
+  inline void set_allocated_transpose_param(::caffe::TransposeParameter* transpose_param);
+
   // optional .caffe.TripletParameter triplet_param = 147;
   inline bool has_triplet_param() const;
   inline void clear_triplet_param();
@@ -3315,6 +3325,8 @@ class LayerParameter : public ::google::protobuf::Message {
   inline void clear_has_threshold_param();
   inline void set_has_tile_param();
   inline void clear_has_tile_param();
+  inline void set_has_transpose_param();
+  inline void clear_has_transpose_param();
   inline void set_has_triplet_param();
   inline void clear_has_triplet_param();
   inline void set_has_window_data_param();
@@ -3380,6 +3392,7 @@ class LayerParameter : public ::google::protobuf::Message {
   ::caffe::TanHParameter* tanh_param_;
   ::caffe::ThresholdParameter* threshold_param_;
   ::caffe::TileParameter* tile_param_;
+  ::caffe::TransposeParameter* transpose_param_;
   ::caffe::TripletParameter* triplet_param_;
   ::caffe::WindowDataParameter* window_data_param_;
   int phase_;
@@ -8635,6 +8648,88 @@ class ThresholdParameter : public ::google::protobuf::Message {
 
   void InitAsDefaultInstance();
   static ThresholdParameter* default_instance_;
+};
+// -------------------------------------------------------------------
+
+class TransposeParameter : public ::google::protobuf::Message {
+ public:
+  TransposeParameter();
+  virtual ~TransposeParameter();
+
+  TransposeParameter(const TransposeParameter& from);
+
+  inline TransposeParameter& operator=(const TransposeParameter& from) {
+    CopyFrom(from);
+    return *this;
+  }
+
+  inline const ::google::protobuf::UnknownFieldSet& unknown_fields() const {
+    return _unknown_fields_;
+  }
+
+  inline ::google::protobuf::UnknownFieldSet* mutable_unknown_fields() {
+    return &_unknown_fields_;
+  }
+
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const TransposeParameter& default_instance();
+
+  void Swap(TransposeParameter* other);
+
+  // implements Message ----------------------------------------------
+
+  TransposeParameter* New() const;
+  void CopyFrom(const ::google::protobuf::Message& from);
+  void MergeFrom(const ::google::protobuf::Message& from);
+  void CopyFrom(const TransposeParameter& from);
+  void MergeFrom(const TransposeParameter& from);
+  void Clear();
+  bool IsInitialized() const;
+
+  int ByteSize() const;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input);
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const;
+  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const;
+  int GetCachedSize() const { return _cached_size_; }
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const;
+  public:
+  ::google::protobuf::Metadata GetMetadata() const;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // repeated int32 dim = 1;
+  inline int dim_size() const;
+  inline void clear_dim();
+  static const int kDimFieldNumber = 1;
+  inline ::google::protobuf::int32 dim(int index) const;
+  inline void set_dim(int index, ::google::protobuf::int32 value);
+  inline void add_dim(::google::protobuf::int32 value);
+  inline const ::google::protobuf::RepeatedField< ::google::protobuf::int32 >&
+      dim() const;
+  inline ::google::protobuf::RepeatedField< ::google::protobuf::int32 >*
+      mutable_dim();
+
+  // @@protoc_insertion_point(class_scope:caffe.TransposeParameter)
+ private:
+
+  ::google::protobuf::UnknownFieldSet _unknown_fields_;
+
+  ::google::protobuf::uint32 _has_bits_[1];
+  mutable int _cached_size_;
+  ::google::protobuf::RepeatedField< ::google::protobuf::int32 > dim_;
+  friend void  protobuf_AddDesc_caffe_2eproto();
+  friend void protobuf_AssignDesc_caffe_2eproto();
+  friend void protobuf_ShutdownFile_caffe_2eproto();
+
+  void InitAsDefaultInstance();
+  static TransposeParameter* default_instance_;
 };
 // -------------------------------------------------------------------
 
@@ -15929,15 +16024,56 @@ inline void LayerParameter::set_allocated_tile_param(::caffe::TileParameter* til
   // @@protoc_insertion_point(field_set_allocated:caffe.LayerParameter.tile_param)
 }
 
-// optional .caffe.TripletParameter triplet_param = 147;
-inline bool LayerParameter::has_triplet_param() const {
+// optional .caffe.TransposeParameter transpose_param = 149;
+inline bool LayerParameter::has_transpose_param() const {
   return (_has_bits_[1] & 0x04000000u) != 0;
 }
-inline void LayerParameter::set_has_triplet_param() {
+inline void LayerParameter::set_has_transpose_param() {
   _has_bits_[1] |= 0x04000000u;
 }
-inline void LayerParameter::clear_has_triplet_param() {
+inline void LayerParameter::clear_has_transpose_param() {
   _has_bits_[1] &= ~0x04000000u;
+}
+inline void LayerParameter::clear_transpose_param() {
+  if (transpose_param_ != NULL) transpose_param_->::caffe::TransposeParameter::Clear();
+  clear_has_transpose_param();
+}
+inline const ::caffe::TransposeParameter& LayerParameter::transpose_param() const {
+  // @@protoc_insertion_point(field_get:caffe.LayerParameter.transpose_param)
+  return transpose_param_ != NULL ? *transpose_param_ : *default_instance_->transpose_param_;
+}
+inline ::caffe::TransposeParameter* LayerParameter::mutable_transpose_param() {
+  set_has_transpose_param();
+  if (transpose_param_ == NULL) transpose_param_ = new ::caffe::TransposeParameter;
+  // @@protoc_insertion_point(field_mutable:caffe.LayerParameter.transpose_param)
+  return transpose_param_;
+}
+inline ::caffe::TransposeParameter* LayerParameter::release_transpose_param() {
+  clear_has_transpose_param();
+  ::caffe::TransposeParameter* temp = transpose_param_;
+  transpose_param_ = NULL;
+  return temp;
+}
+inline void LayerParameter::set_allocated_transpose_param(::caffe::TransposeParameter* transpose_param) {
+  delete transpose_param_;
+  transpose_param_ = transpose_param;
+  if (transpose_param) {
+    set_has_transpose_param();
+  } else {
+    clear_has_transpose_param();
+  }
+  // @@protoc_insertion_point(field_set_allocated:caffe.LayerParameter.transpose_param)
+}
+
+// optional .caffe.TripletParameter triplet_param = 147;
+inline bool LayerParameter::has_triplet_param() const {
+  return (_has_bits_[1] & 0x08000000u) != 0;
+}
+inline void LayerParameter::set_has_triplet_param() {
+  _has_bits_[1] |= 0x08000000u;
+}
+inline void LayerParameter::clear_has_triplet_param() {
+  _has_bits_[1] &= ~0x08000000u;
 }
 inline void LayerParameter::clear_triplet_param() {
   if (triplet_param_ != NULL) triplet_param_->::caffe::TripletParameter::Clear();
@@ -15972,13 +16108,13 @@ inline void LayerParameter::set_allocated_triplet_param(::caffe::TripletParamete
 
 // optional .caffe.WindowDataParameter window_data_param = 129;
 inline bool LayerParameter::has_window_data_param() const {
-  return (_has_bits_[1] & 0x08000000u) != 0;
+  return (_has_bits_[1] & 0x10000000u) != 0;
 }
 inline void LayerParameter::set_has_window_data_param() {
-  _has_bits_[1] |= 0x08000000u;
+  _has_bits_[1] |= 0x10000000u;
 }
 inline void LayerParameter::clear_has_window_data_param() {
-  _has_bits_[1] &= ~0x08000000u;
+  _has_bits_[1] &= ~0x10000000u;
 }
 inline void LayerParameter::clear_window_data_param() {
   if (window_data_param_ != NULL) window_data_param_->::caffe::WindowDataParameter::Clear();
@@ -21122,6 +21258,40 @@ inline void ThresholdParameter::set_threshold(float value) {
   set_has_threshold();
   threshold_ = value;
   // @@protoc_insertion_point(field_set:caffe.ThresholdParameter.threshold)
+}
+
+// -------------------------------------------------------------------
+
+// TransposeParameter
+
+// repeated int32 dim = 1;
+inline int TransposeParameter::dim_size() const {
+  return dim_.size();
+}
+inline void TransposeParameter::clear_dim() {
+  dim_.Clear();
+}
+inline ::google::protobuf::int32 TransposeParameter::dim(int index) const {
+  // @@protoc_insertion_point(field_get:caffe.TransposeParameter.dim)
+  return dim_.Get(index);
+}
+inline void TransposeParameter::set_dim(int index, ::google::protobuf::int32 value) {
+  dim_.Set(index, value);
+  // @@protoc_insertion_point(field_set:caffe.TransposeParameter.dim)
+}
+inline void TransposeParameter::add_dim(::google::protobuf::int32 value) {
+  dim_.Add(value);
+  // @@protoc_insertion_point(field_add:caffe.TransposeParameter.dim)
+}
+inline const ::google::protobuf::RepeatedField< ::google::protobuf::int32 >&
+TransposeParameter::dim() const {
+  // @@protoc_insertion_point(field_list:caffe.TransposeParameter.dim)
+  return dim_;
+}
+inline ::google::protobuf::RepeatedField< ::google::protobuf::int32 >*
+TransposeParameter::mutable_dim() {
+  // @@protoc_insertion_point(field_mutable_list:caffe.TransposeParameter.dim)
+  return &dim_;
 }
 
 // -------------------------------------------------------------------

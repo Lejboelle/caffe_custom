@@ -5,7 +5,7 @@ tools/CMakeFiles/device_query.dir/device_query.cpp.o
  ../include/caffe/common.hpp
  ../include/caffe/util/cudnn.hpp
  ../include/caffe/util/device_alternate.hpp
- /home/aske/caffe/tools/device_query.cpp
+ /home/aske/AAU/Code/caffe_custom/tools/device_query.cpp
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
  /usr/local/cuda/include/common_functions.h

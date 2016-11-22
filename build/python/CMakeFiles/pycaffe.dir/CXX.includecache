@@ -344,7 +344,7 @@ string
 caffe/proto/caffe.pb.h
 ../include/caffe/util/caffe/proto/caffe.pb.h
 
-/home/aske/caffe/python/caffe/_caffe.cpp
+/home/aske/AAU/Code/caffe_custom/python/caffe/_caffe.cpp
 Python.h
 -
 boost/make_shared.hpp
@@ -364,13 +364,13 @@ vector
 fstream
 -
 caffe/caffe.hpp
-/home/aske/caffe/python/caffe/caffe/caffe.hpp
+/home/aske/AAU/Code/caffe_custom/python/caffe/caffe/caffe.hpp
 caffe/layers/memory_data_layer.hpp
-/home/aske/caffe/python/caffe/caffe/layers/memory_data_layer.hpp
+/home/aske/AAU/Code/caffe_custom/python/caffe/caffe/layers/memory_data_layer.hpp
 caffe/layers/python_layer.hpp
-/home/aske/caffe/python/caffe/caffe/layers/python_layer.hpp
+/home/aske/AAU/Code/caffe_custom/python/caffe/caffe/layers/python_layer.hpp
 caffe/sgd_solvers.hpp
-/home/aske/caffe/python/caffe/caffe/sgd_solvers.hpp
+/home/aske/AAU/Code/caffe_custom/python/caffe/caffe/sgd_solvers.hpp
 
 /usr/include/atlas/cblas.h
 

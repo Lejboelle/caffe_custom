@@ -1,8 +1,8 @@
-# Install script for directory: /home/aske/caffe/src/gtest
+# Install script for directory: /home/aske/AAU/Code/caffe_custom/src/gtest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/aske/caffe/build/install")
+  set(CMAKE_INSTALL_PREFIX "/home/aske/AAU/Code/caffe_custom/build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

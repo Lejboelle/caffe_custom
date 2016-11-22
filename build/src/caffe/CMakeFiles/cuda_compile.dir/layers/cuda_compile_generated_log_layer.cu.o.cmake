@@ -56,18 +56,18 @@ endif()
 
 # Set these up as variables to make reading the generated file easier
 set(CMAKE_COMMAND "/usr/bin/cmake") # path
-set(source_file "/home/aske/caffe/src/caffe/layers/log_layer.cu") # path
-set(NVCC_generated_dependency_file "/home/aske/caffe/build/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o.NVCC-depend") # path
-set(cmake_dependency_file "/home/aske/caffe/build/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o.depend") # path
+set(source_file "/home/aske/AAU/Code/caffe_custom/src/caffe/layers/log_layer.cu") # path
+set(NVCC_generated_dependency_file "/home/aske/AAU/Code/caffe_custom/build/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o.NVCC-depend") # path
+set(cmake_dependency_file "/home/aske/AAU/Code/caffe_custom/build/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o.depend") # path
 set(CUDA_make2cmake "/usr/share/cmake-3.5/Modules/FindCUDA/make2cmake.cmake") # path
 set(CUDA_parse_cubin "/usr/share/cmake-3.5/Modules/FindCUDA/parse_cubin.cmake") # path
 set(build_cubin OFF) # bool
 set(CUDA_HOST_COMPILER "/usr/bin/cc") # path
 # We won't actually use these variables for now, but we need to set this, in
 # order to force this file to be run again if it changes.
-set(generated_file_path "/home/aske/caffe/build/src/caffe/CMakeFiles/cuda_compile.dir/layers/.") # path
-set(generated_file_internal "/home/aske/caffe/build/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_log_layer.cu.o") # path
-set(generated_cubin_file_internal "/home/aske/caffe/build/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_log_layer.cu.o.cubin.txt") # path
+set(generated_file_path "/home/aske/AAU/Code/caffe_custom/build/src/caffe/CMakeFiles/cuda_compile.dir/layers/.") # path
+set(generated_file_internal "/home/aske/AAU/Code/caffe_custom/build/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_log_layer.cu.o") # path
+set(generated_cubin_file_internal "/home/aske/AAU/Code/caffe_custom/build/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_log_layer.cu.o.cubin.txt") # path
 
 set(CUDA_NVCC_EXECUTABLE "/usr/local/cuda/bin/nvcc") # path
 set(CUDA_NVCC_FLAGS -gencode;arch=compute_30,code=sm_30;-Xcudafe;--diag_suppress=cc_clobber_ignored;-Xcudafe;--diag_suppress=integer_sign_change;-Xcudafe;--diag_suppress=useless_using_declaration;-Xcudafe;--diag_suppress=set_but_not_used;-Xcompiler;-fPIC ;; ) # list
@@ -77,7 +77,7 @@ set(CUDA_NVCC_FLAGS_RELEASE  ; )
 set(CUDA_NVCC_FLAGS_MINSIZEREL  ; )
 set(CUDA_NVCC_FLAGS_RELWITHDEBINFO  ; )
 set(nvcc_flags -m64;-DCAFFE_VERSION=1.0.0-rc3;-DUSE_LMDB;-DUSE_LEVELDB;-DUSE_OPENCV;-DWITH_PYTHON_LAYER;-DGTEST_USE_OWN_TR1_TUPLE) # list
-set(CUDA_NVCC_INCLUDE_ARGS "-I/usr/local/cuda/include;-I/home/aske/caffe/src;-I/usr/include;-I/home/aske/caffe/build/include;-I/usr/include/hdf5/serial;-I/usr/local/cuda/include;-I/usr/include/opencv;-I/usr/include/atlas;-I/usr/include/python2.7;-I/home/aske/.local/lib/python2.7/site-packages/numpy/core/include;-I/home/aske/caffe/include;-I/home/aske/caffe/build") # list (needs to be in quotes to handle spaces properly).
+set(CUDA_NVCC_INCLUDE_ARGS "-I/usr/local/cuda/include;-I/home/aske/AAU/Code/caffe_custom/src;-I/usr/include;-I/home/aske/AAU/Code/caffe_custom/build/include;-I/usr/include/hdf5/serial;-I/usr/local/cuda/include;-I/usr/include/opencv;-I/usr/include/atlas;-I/usr/include/python2.7;-I/home/aske/.local/lib/python2.7/site-packages/numpy/core/include;-I/home/aske/AAU/Code/caffe_custom/include;-I/home/aske/AAU/Code/caffe_custom/build") # list (needs to be in quotes to handle spaces properly).
 set(format_flag "-c") # string
 set(cuda_language_flag ) # list
 

@@ -6,5 +6,5 @@ CXX_FLAGS =  -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -O3 -DNDEBUG -fPIC
 
 CXX_DEFINES = -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS
 
-CXX_INCLUDES = -I/home/aske/caffe/src -I/home/aske/caffe/build/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /home/aske/.local/lib/python2.7/site-packages/numpy/core/include -I/home/aske/caffe/include -I/home/aske/caffe/build 
+CXX_INCLUDES = -I/home/aske/AAU/Code/caffe_custom/src -I/home/aske/AAU/Code/caffe_custom/build/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /home/aske/.local/lib/python2.7/site-packages/numpy/core/include -I/home/aske/AAU/Code/caffe_custom/include -I/home/aske/AAU/Code/caffe_custom/build 
 

@@ -39,7 +39,7 @@ endif()
 
 # Compute paths
 get_filename_component(Caffe_CMAKE_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
-set(Caffe_INCLUDE_DIRS "/home/aske/caffe/src;/usr/include;/home/aske/caffe/build/include;/usr/include/hdf5/serial;/usr/local/cuda/include;/usr/include/opencv;/usr/include/atlas;/home/aske/caffe/include")
+set(Caffe_INCLUDE_DIRS "/home/aske/AAU/Code/caffe_custom/src;/usr/include;/home/aske/AAU/Code/caffe_custom/build/include;/usr/include/hdf5/serial;/usr/local/cuda/include;/usr/include/opencv;/usr/include/atlas;/home/aske/AAU/Code/caffe_custom/include")
 
 
 

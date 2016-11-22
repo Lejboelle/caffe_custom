@@ -76,25 +76,25 @@ sstream
 string
 -
 
-/home/aske/caffe/examples/cifar10/convert_cifar_data.cpp
+/home/aske/AAU/Code/caffe_custom/examples/cifar10/convert_cifar_data.cpp
 fstream
 -
 string
 -
 boost/scoped_ptr.hpp
-/home/aske/caffe/examples/cifar10/boost/scoped_ptr.hpp
+/home/aske/AAU/Code/caffe_custom/examples/cifar10/boost/scoped_ptr.hpp
 glog/logging.h
-/home/aske/caffe/examples/cifar10/glog/logging.h
+/home/aske/AAU/Code/caffe_custom/examples/cifar10/glog/logging.h
 google/protobuf/text_format.h
-/home/aske/caffe/examples/cifar10/google/protobuf/text_format.h
+/home/aske/AAU/Code/caffe_custom/examples/cifar10/google/protobuf/text_format.h
 stdint.h
-/home/aske/caffe/examples/cifar10/stdint.h
+/home/aske/AAU/Code/caffe_custom/examples/cifar10/stdint.h
 caffe/proto/caffe.pb.h
-/home/aske/caffe/examples/cifar10/caffe/proto/caffe.pb.h
+/home/aske/AAU/Code/caffe_custom/examples/cifar10/caffe/proto/caffe.pb.h
 caffe/util/db.hpp
-/home/aske/caffe/examples/cifar10/caffe/util/db.hpp
+/home/aske/AAU/Code/caffe_custom/examples/cifar10/caffe/util/db.hpp
 caffe/util/format.hpp
-/home/aske/caffe/examples/cifar10/caffe/util/format.hpp
+/home/aske/AAU/Code/caffe_custom/examples/cifar10/caffe/util/format.hpp
 
 /usr/local/cuda/include/builtin_types.h
 device_types.h

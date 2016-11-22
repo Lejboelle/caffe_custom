@@ -190,29 +190,29 @@ cblas.h
 math.h
 -
 
-/home/aske/caffe/tools/extract_features.cpp
+/home/aske/AAU/Code/caffe_custom/tools/extract_features.cpp
 string
 -
 vector
 -
 boost/algorithm/string.hpp
-/home/aske/caffe/tools/boost/algorithm/string.hpp
+/home/aske/AAU/Code/caffe_custom/tools/boost/algorithm/string.hpp
 google/protobuf/text_format.h
-/home/aske/caffe/tools/google/protobuf/text_format.h
+/home/aske/AAU/Code/caffe_custom/tools/google/protobuf/text_format.h
 caffe/blob.hpp
-/home/aske/caffe/tools/caffe/blob.hpp
+/home/aske/AAU/Code/caffe_custom/tools/caffe/blob.hpp
 caffe/common.hpp
-/home/aske/caffe/tools/caffe/common.hpp
+/home/aske/AAU/Code/caffe_custom/tools/caffe/common.hpp
 caffe/net.hpp
-/home/aske/caffe/tools/caffe/net.hpp
+/home/aske/AAU/Code/caffe_custom/tools/caffe/net.hpp
 caffe/proto/caffe.pb.h
-/home/aske/caffe/tools/caffe/proto/caffe.pb.h
+/home/aske/AAU/Code/caffe_custom/tools/caffe/proto/caffe.pb.h
 caffe/util/db.hpp
-/home/aske/caffe/tools/caffe/util/db.hpp
+/home/aske/AAU/Code/caffe_custom/tools/caffe/util/db.hpp
 caffe/util/format.hpp
-/home/aske/caffe/tools/caffe/util/format.hpp
+/home/aske/AAU/Code/caffe_custom/tools/caffe/util/format.hpp
 caffe/util/io.hpp
-/home/aske/caffe/tools/caffe/util/io.hpp
+/home/aske/AAU/Code/caffe_custom/tools/caffe/util/io.hpp
 
 /usr/include/atlas/cblas.h
 

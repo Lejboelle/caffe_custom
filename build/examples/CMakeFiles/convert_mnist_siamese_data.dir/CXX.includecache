@@ -92,25 +92,25 @@ cblas.h
 math.h
 -
 
-/home/aske/caffe/examples/siamese/convert_mnist_siamese_data.cpp
+/home/aske/AAU/Code/caffe_custom/examples/siamese/convert_mnist_siamese_data.cpp
 fstream
 -
 string
 -
 glog/logging.h
-/home/aske/caffe/examples/siamese/glog/logging.h
+/home/aske/AAU/Code/caffe_custom/examples/siamese/glog/logging.h
 google/protobuf/text_format.h
-/home/aske/caffe/examples/siamese/google/protobuf/text_format.h
+/home/aske/AAU/Code/caffe_custom/examples/siamese/google/protobuf/text_format.h
 stdint.h
-/home/aske/caffe/examples/siamese/stdint.h
+/home/aske/AAU/Code/caffe_custom/examples/siamese/stdint.h
 caffe/proto/caffe.pb.h
-/home/aske/caffe/examples/siamese/caffe/proto/caffe.pb.h
+/home/aske/AAU/Code/caffe_custom/examples/siamese/caffe/proto/caffe.pb.h
 caffe/util/format.hpp
-/home/aske/caffe/examples/siamese/caffe/util/format.hpp
+/home/aske/AAU/Code/caffe_custom/examples/siamese/caffe/util/format.hpp
 caffe/util/math_functions.hpp
-/home/aske/caffe/examples/siamese/caffe/util/math_functions.hpp
+/home/aske/AAU/Code/caffe_custom/examples/siamese/caffe/util/math_functions.hpp
 leveldb/db.h
-/home/aske/caffe/examples/siamese/leveldb/db.h
+/home/aske/AAU/Code/caffe_custom/examples/siamese/leveldb/db.h
 
 /usr/include/atlas/cblas.h
 

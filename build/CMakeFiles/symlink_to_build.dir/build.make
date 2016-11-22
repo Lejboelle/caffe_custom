@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aske/caffe
+CMAKE_SOURCE_DIR = /home/aske/AAU/Code/caffe_custom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aske/caffe/build
+CMAKE_BINARY_DIR = /home/aske/AAU/Code/caffe_custom/build
 
 # Utility rule file for symlink_to_build.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/aske/caffe/build
 include CMakeFiles/symlink_to_build.dir/progress.make
 
 CMakeFiles/symlink_to_build:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/aske/caffe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Adding symlink: <caffe_root>/build -> /home/aske/caffe/build"
-	ln -sf /home/aske/caffe/build /home/aske/caffe/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/aske/AAU/Code/caffe_custom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Adding symlink: <caffe_root>/build -> /home/aske/AAU/Code/caffe_custom/build"
+	ln -sf /home/aske/AAU/Code/caffe_custom/build /home/aske/AAU/Code/caffe_custom/build
 
 symlink_to_build: CMakeFiles/symlink_to_build
 symlink_to_build: CMakeFiles/symlink_to_build.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/symlink_to_build.dir/clean:
 .PHONY : CMakeFiles/symlink_to_build.dir/clean
 
 CMakeFiles/symlink_to_build.dir/depend:
-	cd /home/aske/caffe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aske/caffe /home/aske/caffe /home/aske/caffe/build /home/aske/caffe/build /home/aske/caffe/build/CMakeFiles/symlink_to_build.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aske/AAU/Code/caffe_custom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aske/AAU/Code/caffe_custom /home/aske/AAU/Code/caffe_custom /home/aske/AAU/Code/caffe_custom/build /home/aske/AAU/Code/caffe_custom/build /home/aske/AAU/Code/caffe_custom/build/CMakeFiles/symlink_to_build.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/symlink_to_build.dir/depend
 

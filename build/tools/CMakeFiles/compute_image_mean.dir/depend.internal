@@ -8,7 +8,7 @@ tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/format.hpp
  ../include/caffe/util/io.hpp
- /home/aske/caffe/tools/compute_image_mean.cpp
+ /home/aske/AAU/Code/caffe_custom/tools/compute_image_mean.cpp
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
  /usr/local/cuda/include/common_functions.h

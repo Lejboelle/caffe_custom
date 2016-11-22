@@ -1,8 +1,8 @@
 /* Sources directory */
-#define SOURCE_FOLDER "/home/aske/caffe"
+#define SOURCE_FOLDER "/home/aske/AAU/Code/caffe_custom"
 
 /* Binaries directory */
-#define BINARY_FOLDER "/home/aske/caffe/build"
+#define BINARY_FOLDER "/home/aske/AAU/Code/caffe_custom/build"
 
 /* NVIDA Cuda */
 #define HAVE_CUDA

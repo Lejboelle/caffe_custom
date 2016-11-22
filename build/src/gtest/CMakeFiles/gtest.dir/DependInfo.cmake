@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/aske/caffe/src/gtest/gtest-all.cpp" "/home/aske/caffe/build/src/gtest/CMakeFiles/gtest.dir/gtest-all.cpp.o"
+  "/home/aske/AAU/Code/caffe_custom/src/gtest/gtest-all.cpp" "/home/aske/AAU/Code/caffe_custom/build/src/gtest/CMakeFiles/gtest.dir/gtest-all.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

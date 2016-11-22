@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aske/caffe
+CMAKE_SOURCE_DIR = /home/aske/AAU/Code/caffe_custom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aske/caffe/build
+CMAKE_BINARY_DIR = /home/aske/AAU/Code/caffe_custom/build
 
 # Include any dependencies generated for this target.
 include src/caffe/CMakeFiles/proto.dir/depend.make
@@ -58,10 +58,10 @@ include src/caffe/CMakeFiles/proto.dir/progress.make
 include src/caffe/CMakeFiles/proto.dir/flags.make
 
 include/caffe/proto/caffe.pb.cc: ../src/caffe/proto/caffe.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/aske/caffe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running C++/Python protocol buffer compiler on /home/aske/caffe/src/caffe/proto/caffe.proto"
-	cd /home/aske/caffe/build/src/caffe && /usr/bin/cmake -E make_directory /home/aske/caffe/build/include/caffe/proto
-	cd /home/aske/caffe/build/src/caffe && /usr/bin/protoc --cpp_out /home/aske/caffe/build/include/caffe/proto -I /home/aske/caffe/src/caffe/proto /home/aske/caffe/src/caffe/proto/caffe.proto
-	cd /home/aske/caffe/build/src/caffe && /usr/bin/protoc --python_out /home/aske/caffe/build/include/caffe/proto -I /home/aske/caffe/src/caffe/proto /home/aske/caffe/src/caffe/proto/caffe.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/aske/AAU/Code/caffe_custom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running C++/Python protocol buffer compiler on /home/aske/AAU/Code/caffe_custom/src/caffe/proto/caffe.proto"
+	cd /home/aske/AAU/Code/caffe_custom/build/src/caffe && /usr/bin/cmake -E make_directory /home/aske/AAU/Code/caffe_custom/build/include/caffe/proto
+	cd /home/aske/AAU/Code/caffe_custom/build/src/caffe && /usr/bin/protoc --cpp_out /home/aske/AAU/Code/caffe_custom/build/include/caffe/proto -I /home/aske/AAU/Code/caffe_custom/src/caffe/proto /home/aske/AAU/Code/caffe_custom/src/caffe/proto/caffe.proto
+	cd /home/aske/AAU/Code/caffe_custom/build/src/caffe && /usr/bin/protoc --python_out /home/aske/AAU/Code/caffe_custom/build/include/caffe/proto -I /home/aske/AAU/Code/caffe_custom/src/caffe/proto /home/aske/AAU/Code/caffe_custom/src/caffe/proto/caffe.proto
 
 include/caffe/proto/caffe.pb.h: include/caffe/proto/caffe.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/caffe/proto/caffe.pb.h
@@ -71,16 +71,16 @@ include/caffe/proto/caffe_pb2.py: include/caffe/proto/caffe.pb.cc
 
 src/caffe/CMakeFiles/proto.dir/__/__/include/caffe/proto/caffe.pb.cc.o: src/caffe/CMakeFiles/proto.dir/flags.make
 src/caffe/CMakeFiles/proto.dir/__/__/include/caffe/proto/caffe.pb.cc.o: include/caffe/proto/caffe.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aske/caffe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/caffe/CMakeFiles/proto.dir/__/__/include/caffe/proto/caffe.pb.cc.o"
-	cd /home/aske/caffe/build/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proto.dir/__/__/include/caffe/proto/caffe.pb.cc.o -c /home/aske/caffe/build/include/caffe/proto/caffe.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aske/AAU/Code/caffe_custom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/caffe/CMakeFiles/proto.dir/__/__/include/caffe/proto/caffe.pb.cc.o"
+	cd /home/aske/AAU/Code/caffe_custom/build/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proto.dir/__/__/include/caffe/proto/caffe.pb.cc.o -c /home/aske/AAU/Code/caffe_custom/build/include/caffe/proto/caffe.pb.cc
 
 src/caffe/CMakeFiles/proto.dir/__/__/include/caffe/proto/caffe.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proto.dir/__/__/include/caffe/proto/caffe.pb.cc.i"
-	cd /home/aske/caffe/build/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aske/caffe/build/include/caffe/proto/caffe.pb.cc > CMakeFiles/proto.dir/__/__/include/caffe/proto/caffe.pb.cc.i
+	cd /home/aske/AAU/Code/caffe_custom/build/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aske/AAU/Code/caffe_custom/build/include/caffe/proto/caffe.pb.cc > CMakeFiles/proto.dir/__/__/include/caffe/proto/caffe.pb.cc.i
 
 src/caffe/CMakeFiles/proto.dir/__/__/include/caffe/proto/caffe.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proto.dir/__/__/include/caffe/proto/caffe.pb.cc.s"
-	cd /home/aske/caffe/build/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aske/caffe/build/include/caffe/proto/caffe.pb.cc -o CMakeFiles/proto.dir/__/__/include/caffe/proto/caffe.pb.cc.s
+	cd /home/aske/AAU/Code/caffe_custom/build/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aske/AAU/Code/caffe_custom/build/include/caffe/proto/caffe.pb.cc -o CMakeFiles/proto.dir/__/__/include/caffe/proto/caffe.pb.cc.s
 
 src/caffe/CMakeFiles/proto.dir/__/__/include/caffe/proto/caffe.pb.cc.o.requires:
 
@@ -103,9 +103,9 @@ proto_EXTERNAL_OBJECTS =
 lib/libproto.a: src/caffe/CMakeFiles/proto.dir/__/__/include/caffe/proto/caffe.pb.cc.o
 lib/libproto.a: src/caffe/CMakeFiles/proto.dir/build.make
 lib/libproto.a: src/caffe/CMakeFiles/proto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aske/caffe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../lib/libproto.a"
-	cd /home/aske/caffe/build/src/caffe && $(CMAKE_COMMAND) -P CMakeFiles/proto.dir/cmake_clean_target.cmake
-	cd /home/aske/caffe/build/src/caffe && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/proto.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aske/AAU/Code/caffe_custom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../lib/libproto.a"
+	cd /home/aske/AAU/Code/caffe_custom/build/src/caffe && $(CMAKE_COMMAND) -P CMakeFiles/proto.dir/cmake_clean_target.cmake
+	cd /home/aske/AAU/Code/caffe_custom/build/src/caffe && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/proto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/caffe/CMakeFiles/proto.dir/build: lib/libproto.a
@@ -117,12 +117,12 @@ src/caffe/CMakeFiles/proto.dir/requires: src/caffe/CMakeFiles/proto.dir/__/__/in
 .PHONY : src/caffe/CMakeFiles/proto.dir/requires
 
 src/caffe/CMakeFiles/proto.dir/clean:
-	cd /home/aske/caffe/build/src/caffe && $(CMAKE_COMMAND) -P CMakeFiles/proto.dir/cmake_clean.cmake
+	cd /home/aske/AAU/Code/caffe_custom/build/src/caffe && $(CMAKE_COMMAND) -P CMakeFiles/proto.dir/cmake_clean.cmake
 .PHONY : src/caffe/CMakeFiles/proto.dir/clean
 
 src/caffe/CMakeFiles/proto.dir/depend: include/caffe/proto/caffe.pb.cc
 src/caffe/CMakeFiles/proto.dir/depend: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/proto.dir/depend: include/caffe/proto/caffe_pb2.py
-	cd /home/aske/caffe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aske/caffe /home/aske/caffe/src/caffe /home/aske/caffe/build /home/aske/caffe/build/src/caffe /home/aske/caffe/build/src/caffe/CMakeFiles/proto.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aske/AAU/Code/caffe_custom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aske/AAU/Code/caffe_custom /home/aske/AAU/Code/caffe_custom/src/caffe /home/aske/AAU/Code/caffe_custom/build /home/aske/AAU/Code/caffe_custom/build/src/caffe /home/aske/AAU/Code/caffe_custom/build/src/caffe/CMakeFiles/proto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/caffe/CMakeFiles/proto.dir/depend
 

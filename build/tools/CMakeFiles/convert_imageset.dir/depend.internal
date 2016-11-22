@@ -9,7 +9,7 @@ tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o
  ../include/caffe/util/format.hpp
  ../include/caffe/util/io.hpp
  ../include/caffe/util/rng.hpp
- /home/aske/caffe/tools/convert_imageset.cpp
+ /home/aske/AAU/Code/caffe_custom/tools/convert_imageset.cpp
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
  /usr/local/cuda/include/common_functions.h

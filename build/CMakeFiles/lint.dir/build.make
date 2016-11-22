@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aske/caffe
+CMAKE_SOURCE_DIR = /home/aske/AAU/Code/caffe_custom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aske/caffe/build
+CMAKE_BINARY_DIR = /home/aske/AAU/Code/caffe_custom/build
 
 # Utility rule file for lint.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/aske/caffe/build
 include CMakeFiles/lint.dir/progress.make
 
 CMakeFiles/lint:
-	/usr/bin/cmake -P /home/aske/caffe/cmake/lint.cmake
+	/usr/bin/cmake -P /home/aske/AAU/Code/caffe_custom/cmake/lint.cmake
 
 lint: CMakeFiles/lint
 lint: CMakeFiles/lint.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/lint.dir/clean:
 .PHONY : CMakeFiles/lint.dir/clean
 
 CMakeFiles/lint.dir/depend:
-	cd /home/aske/caffe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aske/caffe /home/aske/caffe /home/aske/caffe/build /home/aske/caffe/build /home/aske/caffe/build/CMakeFiles/lint.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aske/AAU/Code/caffe_custom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aske/AAU/Code/caffe_custom /home/aske/AAU/Code/caffe_custom /home/aske/AAU/Code/caffe_custom/build /home/aske/AAU/Code/caffe_custom/build /home/aske/AAU/Code/caffe_custom/build/CMakeFiles/lint.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lint.dir/depend
 

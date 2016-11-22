@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aske/caffe
+CMAKE_SOURCE_DIR = /home/aske/AAU/Code/caffe_custom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aske/caffe/build
+CMAKE_BINARY_DIR = /home/aske/AAU/Code/caffe_custom/build
 
 # Include any dependencies generated for this target.
 include python/CMakeFiles/pycaffe.dir/depend.make
@@ -59,16 +59,16 @@ include python/CMakeFiles/pycaffe.dir/flags.make
 
 python/CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.o: python/CMakeFiles/pycaffe.dir/flags.make
 python/CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.o: ../python/caffe/_caffe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aske/caffe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object python/CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.o"
-	cd /home/aske/caffe/build/python && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.o -c /home/aske/caffe/python/caffe/_caffe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aske/AAU/Code/caffe_custom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object python/CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.o"
+	cd /home/aske/AAU/Code/caffe_custom/build/python && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.o -c /home/aske/AAU/Code/caffe_custom/python/caffe/_caffe.cpp
 
 python/CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.i"
-	cd /home/aske/caffe/build/python && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aske/caffe/python/caffe/_caffe.cpp > CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.i
+	cd /home/aske/AAU/Code/caffe_custom/build/python && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aske/AAU/Code/caffe_custom/python/caffe/_caffe.cpp > CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.i
 
 python/CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.s"
-	cd /home/aske/caffe/build/python && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aske/caffe/python/caffe/_caffe.cpp -o CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.s
+	cd /home/aske/AAU/Code/caffe_custom/build/python && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aske/AAU/Code/caffe_custom/python/caffe/_caffe.cpp -o CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.s
 
 python/CMakeFiles/pycaffe.dir/caffe/_caffe.cpp.o.requires:
 
@@ -135,13 +135,13 @@ lib/_caffe.so: /usr/lib/libatlas.so
 lib/_caffe.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
 lib/_caffe.so: /usr/lib/x86_64-linux-gnu/libboost_python.so
 lib/_caffe.so: python/CMakeFiles/pycaffe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aske/caffe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../lib/_caffe.so"
-	cd /home/aske/caffe/build/python && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pycaffe.dir/link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Creating symlink /home/aske/caffe/python/caffe/_caffe.so -> /home/aske/caffe/build/lib/_caffe.so"
-	cd /home/aske/caffe/build/python && ln -sf /home/aske/caffe/build/lib/_caffe.so /home/aske/caffe/python/caffe/_caffe.so
-	cd /home/aske/caffe/build/python && /usr/bin/cmake -E make_directory /home/aske/caffe/python/caffe/proto
-	cd /home/aske/caffe/build/python && touch /home/aske/caffe/python/caffe/proto/__init__.py
-	cd /home/aske/caffe/build/python && cp /home/aske/caffe/build/include/caffe/proto/*.py /home/aske/caffe/python/caffe/proto/
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aske/AAU/Code/caffe_custom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../lib/_caffe.so"
+	cd /home/aske/AAU/Code/caffe_custom/build/python && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pycaffe.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Creating symlink /home/aske/AAU/Code/caffe_custom/python/caffe/_caffe.so -> /home/aske/AAU/Code/caffe_custom/build/lib/_caffe.so"
+	cd /home/aske/AAU/Code/caffe_custom/build/python && ln -sf /home/aske/AAU/Code/caffe_custom/build/lib/_caffe.so /home/aske/AAU/Code/caffe_custom/python/caffe/_caffe.so
+	cd /home/aske/AAU/Code/caffe_custom/build/python && /usr/bin/cmake -E make_directory /home/aske/AAU/Code/caffe_custom/python/caffe/proto
+	cd /home/aske/AAU/Code/caffe_custom/build/python && touch /home/aske/AAU/Code/caffe_custom/python/caffe/proto/__init__.py
+	cd /home/aske/AAU/Code/caffe_custom/build/python && cp /home/aske/AAU/Code/caffe_custom/build/include/caffe/proto/*.py /home/aske/AAU/Code/caffe_custom/python/caffe/proto/
 
 # Rule to build all files generated by this target.
 python/CMakeFiles/pycaffe.dir/build: lib/_caffe.so
@@ -153,10 +153,10 @@ python/CMakeFiles/pycaffe.dir/requires: python/CMakeFiles/pycaffe.dir/caffe/_caf
 .PHONY : python/CMakeFiles/pycaffe.dir/requires
 
 python/CMakeFiles/pycaffe.dir/clean:
-	cd /home/aske/caffe/build/python && $(CMAKE_COMMAND) -P CMakeFiles/pycaffe.dir/cmake_clean.cmake
+	cd /home/aske/AAU/Code/caffe_custom/build/python && $(CMAKE_COMMAND) -P CMakeFiles/pycaffe.dir/cmake_clean.cmake
 .PHONY : python/CMakeFiles/pycaffe.dir/clean
 
 python/CMakeFiles/pycaffe.dir/depend:
-	cd /home/aske/caffe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aske/caffe /home/aske/caffe/python /home/aske/caffe/build /home/aske/caffe/build/python /home/aske/caffe/build/python/CMakeFiles/pycaffe.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aske/AAU/Code/caffe_custom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aske/AAU/Code/caffe_custom /home/aske/AAU/Code/caffe_custom/python /home/aske/AAU/Code/caffe_custom/build /home/aske/AAU/Code/caffe_custom/build/python /home/aske/AAU/Code/caffe_custom/build/python/CMakeFiles/pycaffe.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : python/CMakeFiles/pycaffe.dir/depend
 

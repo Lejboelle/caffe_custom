@@ -290,7 +290,7 @@ string
 caffe/proto/caffe.pb.h
 ../include/caffe/util/caffe/proto/caffe.pb.h
 
-/home/aske/caffe/tools/upgrade_net_proto_text.cpp
+/home/aske/AAU/Code/caffe_custom/tools/upgrade_net_proto_text.cpp
 cstring
 -
 fstream
@@ -300,11 +300,11 @@ iostream
 string
 -
 caffe/caffe.hpp
-/home/aske/caffe/tools/caffe/caffe.hpp
+/home/aske/AAU/Code/caffe_custom/tools/caffe/caffe.hpp
 caffe/util/io.hpp
-/home/aske/caffe/tools/caffe/util/io.hpp
+/home/aske/AAU/Code/caffe_custom/tools/caffe/util/io.hpp
 caffe/util/upgrade_proto.hpp
-/home/aske/caffe/tools/caffe/util/upgrade_proto.hpp
+/home/aske/AAU/Code/caffe_custom/tools/caffe/util/upgrade_proto.hpp
 
 /usr/include/atlas/cblas.h
 

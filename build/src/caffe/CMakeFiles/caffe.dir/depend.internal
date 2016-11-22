@@ -9,7 +9,7 @@ src/caffe/CMakeFiles/caffe.dir/blob.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/blob.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/blob.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -76,7 +76,7 @@ src/caffe/CMakeFiles/caffe.dir/common.cpp.o
  ../include/caffe/util/cudnn.hpp
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/rng.hpp
- /home/aske/caffe/src/caffe/common.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/common.cpp
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
  /usr/local/cuda/include/common_functions.h
@@ -154,7 +154,7 @@ src/caffe/CMakeFiles/caffe.dir/data_reader.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/data_reader.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/data_reader.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -228,7 +228,7 @@ src/caffe/CMakeFiles/caffe.dir/data_transformer.cpp.o
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
  ../include/caffe/util/rng.hpp
- /home/aske/caffe/src/caffe/data_transformer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/data_transformer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -297,7 +297,7 @@ src/caffe/CMakeFiles/caffe.dir/internal_thread.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/internal_thread.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/internal_thread.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -369,7 +369,7 @@ src/caffe/CMakeFiles/caffe.dir/layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -463,7 +463,7 @@ src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.o
  ../include/caffe/util/im2col.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layer_factory.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layer_factory.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -537,7 +537,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/absval_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/absval_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/absval_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -611,7 +611,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/accuracy_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/accuracy_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -684,7 +684,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/argmax_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/argmax_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/argmax_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -759,7 +759,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.o
  ../include/caffe/util/im2col.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/base_conv_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/base_conv_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -835,7 +835,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/base_data_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/base_data_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/base_data_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -908,7 +908,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/batch_norm_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/batch_norm_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -981,7 +981,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/batch_reindex_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/batch_reindex_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -1055,7 +1055,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/bias_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/bias_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/bias_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -1129,7 +1129,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/bnll_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/bnll_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/bnll_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -1202,7 +1202,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/concat_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/concat_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/concat_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -1276,7 +1276,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/contrastive_loss_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/contrastive_loss_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -1351,7 +1351,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/conv_layer.cpp.o
  ../include/caffe/util/im2col.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/conv_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/conv_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -1425,7 +1425,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/crop_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/crop_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/crop_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -1501,7 +1501,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.o
  ../include/caffe/util/im2col.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/cudnn_conv_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/cudnn_conv_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -1580,7 +1580,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/cudnn_lcn_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/cudnn_lcn_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -1659,7 +1659,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/cudnn_lrn_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/cudnn_lrn_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -1733,7 +1733,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/cudnn_pooling_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/cudnn_pooling_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -1808,7 +1808,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/cudnn_relu_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/cudnn_relu_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -1883,7 +1883,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/cudnn_sigmoid_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/cudnn_sigmoid_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -1957,7 +1957,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/cudnn_softmax_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/cudnn_softmax_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -2346,7 +2346,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/cudnn_tanh_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/cudnn_tanh_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -2426,7 +2426,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/data_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/data_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/data_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -2501,7 +2501,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/deconv_layer.cpp.o
  ../include/caffe/util/im2col.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/deconv_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/deconv_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -2575,7 +2575,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/dropout_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/dropout_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/dropout_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -2649,7 +2649,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/dummy_data_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/dummy_data_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -2722,7 +2722,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/eltwise_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/eltwise_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -2796,7 +2796,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/elu_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/elu_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/elu_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -2870,7 +2870,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/embed_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/embed_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/embed_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -2944,7 +2944,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/euclidean_loss_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/euclidean_loss_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -3018,7 +3018,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/exp_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/exp_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/exp_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -3091,7 +3091,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/filter_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/filter_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/filter_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -3164,7 +3164,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/flatten_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/flatten_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/flatten_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -3242,7 +3242,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.o
  ../include/caffe/util/hdf5.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/hdf5_data_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/hdf5_data_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -3316,7 +3316,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.o
  ../include/caffe/util/hdf5.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/hdf5_output_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/hdf5_output_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -3390,7 +3390,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/hinge_loss_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/hinge_loss_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -3464,7 +3464,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/im2col_layer.cpp.o
  ../include/caffe/util/im2col.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/im2col_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/im2col_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -3545,7 +3545,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/image_data_layer.cpp.o
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
  ../include/caffe/util/rng.hpp
- /home/aske/caffe/src/caffe/layers/image_data_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/image_data_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -3621,7 +3621,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.o
  ../include/caffe/util/io.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/infogain_loss_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/infogain_loss_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -3695,7 +3695,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/inner_product_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/inner_product_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -3768,7 +3768,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/input_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/input_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/input_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -3842,7 +3842,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/log_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/log_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/log_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -3915,7 +3915,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/loss_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/loss_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/loss_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -3993,7 +3993,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/lrn_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/lrn_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/lrn_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -4070,7 +4070,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/lstm_layer.cpp.o
  ../include/caffe/util/format.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/lstm_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/lstm_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -4146,7 +4146,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.o
  ../include/caffe/util/format.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/lstm_unit_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/lstm_unit_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -4223,7 +4223,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/memory_data_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/memory_data_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -4297,7 +4297,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/multinomial_logistic_loss_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/multinomial_logistic_loss_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -4370,7 +4370,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/mvn_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/mvn_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/mvn_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -4445,7 +4445,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/neighbour_layer.cpp.o
  ../include/caffe/util/im2col.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/neighbour_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/neighbour_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -4518,7 +4518,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/neuron_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/neuron_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/neuron_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -4591,7 +4591,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/parameter_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/parameter_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/parameter_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -4664,7 +4664,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/pooling_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/pooling_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/pooling_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -4738,7 +4738,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/power_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/power_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/power_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -4813,7 +4813,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/prelu_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/prelu_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/prelu_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -4889,7 +4889,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.o
  ../include/caffe/util/format.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/recurrent_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/recurrent_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -4962,7 +4962,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/reduction_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/reduction_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/reduction_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -5036,7 +5036,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/relu_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/relu_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/relu_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -5109,7 +5109,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/reshape_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/reshape_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -5186,7 +5186,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o
  ../include/caffe/util/format.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/rnn_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/rnn_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -5261,7 +5261,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/scale_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/scale_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -5337,7 +5337,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -5411,7 +5411,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/sigmoid_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/sigmoid_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -5484,7 +5484,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/silence_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/silence_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -5557,7 +5557,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/slice_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/slice_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -5630,7 +5630,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/softmax_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/softmax_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -5705,7 +5705,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/softmax_loss_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/softmax_loss_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -5778,7 +5778,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/split_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/split_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -5855,7 +5855,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/spp_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/spp_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -5929,7 +5929,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/tanh_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/tanh_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -6003,7 +6003,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/threshold_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/threshold_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -6076,7 +6076,80 @@ src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/tile_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/tile_layer.cpp
+ /usr/include/atlas/cblas.h
+ /usr/local/cuda/include/builtin_types.h
+ /usr/local/cuda/include/channel_descriptor.h
+ /usr/local/cuda/include/common_functions.h
+ /usr/local/cuda/include/crt/func_macro.h
+ /usr/local/cuda/include/cuComplex.h
+ /usr/local/cuda/include/cublas_api.h
+ /usr/local/cuda/include/cublas_v2.h
+ /usr/local/cuda/include/cuda.h
+ /usr/local/cuda/include/cuda_device_runtime_api.h
+ /usr/local/cuda/include/cuda_fp16.h
+ /usr/local/cuda/include/cuda_runtime.h
+ /usr/local/cuda/include/cuda_runtime_api.h
+ /usr/local/cuda/include/cuda_surface_types.h
+ /usr/local/cuda/include/cuda_texture_types.h
+ /usr/local/cuda/include/curand.h
+ /usr/local/cuda/include/device_atomic_functions.h
+ /usr/local/cuda/include/device_atomic_functions.hpp
+ /usr/local/cuda/include/device_double_functions.h
+ /usr/local/cuda/include/device_double_functions.hpp
+ /usr/local/cuda/include/device_functions.h
+ /usr/local/cuda/include/device_functions.hpp
+ /usr/local/cuda/include/device_functions_decls.h
+ /usr/local/cuda/include/device_launch_parameters.h
+ /usr/local/cuda/include/device_types.h
+ /usr/local/cuda/include/driver_functions.h
+ /usr/local/cuda/include/driver_types.h
+ /usr/local/cuda/include/host_config.h
+ /usr/local/cuda/include/host_defines.h
+ /usr/local/cuda/include/library_types.h
+ /usr/local/cuda/include/math_constants.h
+ /usr/local/cuda/include/math_functions.h
+ /usr/local/cuda/include/math_functions.hpp
+ /usr/local/cuda/include/math_functions_dbl_ptx3.h
+ /usr/local/cuda/include/math_functions_dbl_ptx3.hpp
+ /usr/local/cuda/include/sm_20_atomic_functions.h
+ /usr/local/cuda/include/sm_20_atomic_functions.hpp
+ /usr/local/cuda/include/sm_20_intrinsics.h
+ /usr/local/cuda/include/sm_20_intrinsics.hpp
+ /usr/local/cuda/include/sm_30_intrinsics.h
+ /usr/local/cuda/include/sm_30_intrinsics.hpp
+ /usr/local/cuda/include/sm_32_atomic_functions.h
+ /usr/local/cuda/include/sm_32_atomic_functions.hpp
+ /usr/local/cuda/include/sm_32_intrinsics.h
+ /usr/local/cuda/include/sm_32_intrinsics.hpp
+ /usr/local/cuda/include/sm_35_atomic_functions.h
+ /usr/local/cuda/include/sm_35_intrinsics.h
+ /usr/local/cuda/include/sm_60_atomic_functions.h
+ /usr/local/cuda/include/sm_60_atomic_functions.hpp
+ /usr/local/cuda/include/sm_61_intrinsics.h
+ /usr/local/cuda/include/sm_61_intrinsics.hpp
+ /usr/local/cuda/include/surface_functions.h
+ /usr/local/cuda/include/surface_indirect_functions.h
+ /usr/local/cuda/include/surface_types.h
+ /usr/local/cuda/include/texture_fetch_functions.h
+ /usr/local/cuda/include/texture_indirect_functions.h
+ /usr/local/cuda/include/texture_types.h
+ /usr/local/cuda/include/vector_functions.h
+ /usr/local/cuda/include/vector_functions.hpp
+ /usr/local/cuda/include/vector_types.h
+ include/caffe/proto/caffe.pb.h
+src/caffe/CMakeFiles/caffe.dir/layers/transpose_layer.cpp.o
+ ../include/caffe/blob.hpp
+ ../include/caffe/common.hpp
+ ../include/caffe/layer.hpp
+ ../include/caffe/layer_factory.hpp
+ ../include/caffe/layers/transpose_layer.hpp
+ ../include/caffe/syncedmem.hpp
+ ../include/caffe/util/cudnn.hpp
+ ../include/caffe/util/device_alternate.hpp
+ ../include/caffe/util/math_functions.hpp
+ ../include/caffe/util/mkl_alternate.hpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/transpose_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -6150,7 +6223,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/triplet_loss_layer.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/triplet_loss_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/triplet_loss_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -6224,7 +6297,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/triplet_loss_layer_reg.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/layers/triplet_loss_layer_reg.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/triplet_loss_layer_reg.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -6305,7 +6378,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
  ../include/caffe/util/rng.hpp
- /home/aske/caffe/src/caffe/layers/window_data_layer.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/layers/window_data_layer.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -6388,7 +6461,7 @@ src/caffe/CMakeFiles/caffe.dir/net.cpp.o
  ../include/caffe/util/mkl_alternate.hpp
  ../include/caffe/util/upgrade_proto.hpp
  ../src/gtest/gtest.h
- /home/aske/caffe/src/caffe/net.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/net.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -6473,7 +6546,7 @@ src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
  ../include/caffe/util/upgrade_proto.hpp
- /home/aske/caffe/src/caffe/parallel.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/parallel.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -6552,7 +6625,7 @@ src/caffe/CMakeFiles/caffe.dir/solver.cpp.o
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
  ../include/caffe/util/upgrade_proto.hpp
- /home/aske/caffe/src/caffe/solver.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/solver.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -6628,7 +6701,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/solvers/adadelta_solver.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/solvers/adadelta_solver.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -6704,7 +6777,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/solvers/adagrad_solver.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/solvers/adagrad_solver.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -6780,7 +6853,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/solvers/adam_solver.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/solvers/adam_solver.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -6856,7 +6929,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/solvers/nesterov_solver.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/solvers/nesterov_solver.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -6932,7 +7005,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/solvers/rmsprop_solver.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/solvers/rmsprop_solver.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -7012,7 +7085,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
  ../include/caffe/util/upgrade_proto.hpp
- /home/aske/caffe/src/caffe/solvers/sgd_solver.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/solvers/sgd_solver.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -7081,7 +7154,7 @@ src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/syncedmem.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/syncedmem.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -7148,7 +7221,7 @@ src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.o
  ../include/caffe/util/benchmark.hpp
  ../include/caffe/util/cudnn.hpp
  ../include/caffe/util/device_alternate.hpp
- /home/aske/caffe/src/caffe/util/benchmark.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/util/benchmark.cpp
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
  /usr/local/cuda/include/common_functions.h
@@ -7229,7 +7302,7 @@ src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/util/blocking_queue.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/util/blocking_queue.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -7295,7 +7368,7 @@ src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.o
  ../include/caffe/common.hpp
  ../include/caffe/util/cudnn.hpp
  ../include/caffe/util/device_alternate.hpp
- /home/aske/caffe/src/caffe/util/cudnn.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/util/cudnn.cpp
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
  /usr/local/cuda/include/common_functions.h
@@ -7363,7 +7436,7 @@ src/caffe/CMakeFiles/caffe.dir/util/db.cpp.o
  ../include/caffe/util/db_leveldb.hpp
  ../include/caffe/util/db_lmdb.hpp
  ../include/caffe/util/device_alternate.hpp
- /home/aske/caffe/src/caffe/util/db.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/util/db.cpp
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
  /usr/local/cuda/include/common_functions.h
@@ -7430,7 +7503,7 @@ src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.o
  ../include/caffe/util/db.hpp
  ../include/caffe/util/db_leveldb.hpp
  ../include/caffe/util/device_alternate.hpp
- /home/aske/caffe/src/caffe/util/db_leveldb.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/util/db_leveldb.cpp
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
  /usr/local/cuda/include/common_functions.h
@@ -7497,7 +7570,7 @@ src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.o
  ../include/caffe/util/db.hpp
  ../include/caffe/util/db_lmdb.hpp
  ../include/caffe/util/device_alternate.hpp
- /home/aske/caffe/src/caffe/util/db_lmdb.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/util/db_lmdb.cpp
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
  /usr/local/cuda/include/common_functions.h
@@ -7565,7 +7638,7 @@ src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.o
  ../include/caffe/util/cudnn.hpp
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/hdf5.hpp
- /home/aske/caffe/src/caffe/util/hdf5.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/util/hdf5.cpp
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
  /usr/local/cuda/include/common_functions.h
@@ -7633,7 +7706,7 @@ src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.o
  ../include/caffe/util/im2col.hpp
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
- /home/aske/caffe/src/caffe/util/im2col.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/util/im2col.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -7700,7 +7773,7 @@ src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.o
  ../include/caffe/util/cudnn.hpp
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/insert_splits.hpp
- /home/aske/caffe/src/caffe/util/insert_splits.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/util/insert_splits.cpp
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
  /usr/local/cuda/include/common_functions.h
@@ -7767,7 +7840,7 @@ src/caffe/CMakeFiles/caffe.dir/util/io.cpp.o
  ../include/caffe/util/device_alternate.hpp
  ../include/caffe/util/format.hpp
  ../include/caffe/util/io.hpp
- /home/aske/caffe/src/caffe/util/io.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/util/io.cpp
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
  /usr/local/cuda/include/common_functions.h
@@ -7835,7 +7908,7 @@ src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.o
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
  ../include/caffe/util/rng.hpp
- /home/aske/caffe/src/caffe/util/math_functions.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/util/math_functions.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -7911,7 +7984,7 @@ src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.o
  ../include/caffe/util/math_functions.hpp
  ../include/caffe/util/mkl_alternate.hpp
  ../include/caffe/util/signal_handler.h
- /home/aske/caffe/src/caffe/util/signal_handler.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/util/signal_handler.cpp
  /usr/include/atlas/cblas.h
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
@@ -7980,7 +8053,7 @@ src/caffe/CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o
  ../include/caffe/util/format.hpp
  ../include/caffe/util/io.hpp
  ../include/caffe/util/upgrade_proto.hpp
- /home/aske/caffe/src/caffe/util/upgrade_proto.cpp
+ /home/aske/AAU/Code/caffe_custom/src/caffe/util/upgrade_proto.cpp
  /usr/local/cuda/include/builtin_types.h
  /usr/local/cuda/include/channel_descriptor.h
  /usr/local/cuda/include/common_functions.h

@@ -1,8 +1,8 @@
-# Install script for directory: /home/aske/caffe
+# Install script for directory: /home/aske/AAU/Code/caffe_custom
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/aske/caffe/build/install")
+  set(CMAKE_INSTALL_PREFIX "/home/aske/AAU/Code/caffe_custom/build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,14 +33,14 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Caffe" TYPE FILE FILES "/home/aske/caffe/build/cmake/CaffeConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Caffe" TYPE FILE FILES "/home/aske/AAU/Code/caffe_custom/build/cmake/CaffeConfig.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/Caffe/CaffeTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/Caffe/CaffeTargets.cmake"
-         "/home/aske/caffe/build/CMakeFiles/Export/share/Caffe/CaffeTargets.cmake")
+         "/home/aske/AAU/Code/caffe_custom/build/CMakeFiles/Export/share/Caffe/CaffeTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/Caffe/CaffeTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -49,21 +49,21 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Caffe" TYPE FILE FILES "/home/aske/caffe/build/CMakeFiles/Export/share/Caffe/CaffeTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Caffe" TYPE FILE FILES "/home/aske/AAU/Code/caffe_custom/build/CMakeFiles/Export/share/Caffe/CaffeTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Caffe" TYPE FILE FILES "/home/aske/caffe/build/CMakeFiles/Export/share/Caffe/CaffeTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Caffe" TYPE FILE FILES "/home/aske/AAU/Code/caffe_custom/build/CMakeFiles/Export/share/Caffe/CaffeTargets-release.cmake")
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/aske/caffe/build/src/gtest/cmake_install.cmake")
-  include("/home/aske/caffe/build/src/caffe/cmake_install.cmake")
-  include("/home/aske/caffe/build/tools/cmake_install.cmake")
-  include("/home/aske/caffe/build/examples/cmake_install.cmake")
-  include("/home/aske/caffe/build/python/cmake_install.cmake")
-  include("/home/aske/caffe/build/matlab/cmake_install.cmake")
-  include("/home/aske/caffe/build/docs/cmake_install.cmake")
+  include("/home/aske/AAU/Code/caffe_custom/build/src/gtest/cmake_install.cmake")
+  include("/home/aske/AAU/Code/caffe_custom/build/src/caffe/cmake_install.cmake")
+  include("/home/aske/AAU/Code/caffe_custom/build/tools/cmake_install.cmake")
+  include("/home/aske/AAU/Code/caffe_custom/build/examples/cmake_install.cmake")
+  include("/home/aske/AAU/Code/caffe_custom/build/python/cmake_install.cmake")
+  include("/home/aske/AAU/Code/caffe_custom/build/matlab/cmake_install.cmake")
+  include("/home/aske/AAU/Code/caffe_custom/build/docs/cmake_install.cmake")
 
 endif()
 
@@ -75,5 +75,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/aske/caffe/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/aske/AAU/Code/caffe_custom/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
