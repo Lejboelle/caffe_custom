@@ -5,6 +5,9 @@ Draw a graph of the net architecture.
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 from google.protobuf import text_format
 
+caffe_root = '/home/aske/AAU/Code/caffe_custom/'  # this file is expected to be in {caffe_root}/examples
+import sys
+sys.path.insert(0, caffe_root + 'python')
 import caffe
 import caffe.draw
 from caffe.proto import caffe_pb2
